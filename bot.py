@@ -20,7 +20,6 @@ from telegram.ext import (
 import os
 
 TOKEN = os.environ["BOT_TOKEN"]
-print("TOKEN VALUE:", repr(TOKEN))
 
 LAT = 41.2646
 LON = 69.2163
