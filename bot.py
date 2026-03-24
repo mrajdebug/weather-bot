@@ -19,9 +19,8 @@ from telegram.ext import (
 
 import os
 
-TOKEN = os.getenv("8784508057:AAFZH6ZncD3rm_UqtOSRIItuFvTyeV1GxaM")
-
-print("TOKEN VALUE:", TOKEN)
+TOKEN = os.environ["BOT_TOKEN"]
+print("TOKEN VALUE:", repr(TOKEN))
 
 LAT = 41.2646
 LON = 69.2163
@@ -468,5 +467,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
     main()
